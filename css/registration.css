@@ -8,7 +8,7 @@ body {
     direction: ltr;
 }
 #page-inner {
-	background-image: url(../../../../../resources/global/images/bl-grey-head.png)!important;
+	background-image: url(../images/bl-grey-head.png)!important;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center top;
