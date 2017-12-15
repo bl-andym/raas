@@ -1,0 +1,274 @@
+
+/* Registration */
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 62.5%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    direction: ltr;
+}
+#page-inner {
+	background-image: url(../../../../../resources/global/images/bl-grey-head.png)!important;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+    background-color: transparent;
+}
+h1, h2, h3, h4, h5, h6 {line-height: 1.2;}
+h2 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: none;
+    line-height: 1.2;
+    font-size: 1.8em;
+}
+p {margin: 10px 0 11px 0;margin: 0.625rem 0 0.6875rem 0;max-width: 624px;}
+.main-content p a {color:#999;}
+
+#main-navigation .title {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+/*colours*/
+.vlg-bg {
+    background: #eee;
+    background-color: #eee;
+}
+
+/* accessible */
+.accessible-hidden, label {
+    position: absolute;
+    left: -10000px;
+}
+
+.cta-list label {position: static;left:0;}
+
+
+/*header classes*/
+#site-logo {
+	border-bottom: 1px solid #fff;
+	width: 52px;
+    height: 100px;
+    float: left;
+}
+.page-header {z-index: 20;float: none;display: block;margin: 0 auto;width: 976px;position: relative;}
+.masthead-inner {color:#fff;background-color: #999;}
+.masthead-inner .masthead-title {
+    font-size: 32px;
+    font-size: 2.0rem;
+    font-weight: normal;
+    line-height: 32px;
+    margin:0;
+}
+.main-content-block-inner {
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+.page-title {
+    padding-right: 0;
+    padding-left: 1rem;
+}
+
+/*helper classes*/
+.no-p {padding: 0;}
+.no-m {margin: 0;}
+.clearfix {clear:both;}
+.w-bg {background: #fff;background-color: #fff;}
+.accessible-hidden {position:absolute;left:-10000px;}
+.f-right {float: right;}
+.sml-txt {font-size: 11px;font-size: 0.7rem;}
+
+/*grid calsses*/
+.grid_15 {width: 240px;}
+.grid_19 {width: 304px;}
+.grid_25 {width: 400px;}
+.grid_40 {width: 640px;}
+
+.grid_61 {width: 976px;}
+.grid_61:after {clear: both;}
+.grid_61:before, 
+.grid_61:after {content: " ";display: table;}
+
+/*padding/margin classes*/
+.p-l-1col {padding-left:16px;padding-left:1rem}
+.p-t-1col {padding-top:16px;padding-top:1rem}
+.p-r-1col {padding-right:16px;padding-right:1rem}
+.p-b-1col {padding-bottom: 16px;padding-bottom: 1rem;}
+
+.p-l-2col {padding-left: 32px;padding-left: 2rem;}
+.p-t-2col {padding-top: 32px;padding-top: 2rem;}
+.p-r-2col {padding-right: 32px;padding-right: 2rem;}
+.p-b-2col {padding-bottom: 32px;padding-bottom: 2rem;}
+
+.m-b-1col {margin-bottom: 16px;margin-bottom: 1rem;}
+
+/*btn classes*/
+.action-button {
+    color: #fff;
+    padding: 0 2rem;
+    line-height: 32px;
+    line-height: 2rem;
+    background-color: #999;
+}
+.action-button:hover {background-color: #333;border-bottom: none;border-bottom-width: 0;}
+a:link, a:visited, a:active, a:hover {text-decoration: none;}
+a:active, a:hover {outline: 0;}
+
+
+/*form classes*/
+fieldset {margin: 0;padding: 0;border: none;}
+fieldset ul, ol, ul, figure, form, button, input, select, textarea {margin: 0;}
+
+ul {
+    list-style: none;
+    padding-left:16px;
+    padding-left:1rem;
+}
+ul:not(.cta-list) li {list-style-type: disc;margin-bottom:0;}
+/* ul.cta-list li {padding-left:130px;} */
+
+input {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    margin: 0;
+    line-height: normal;
+    min-height: auto;
+    width:100%;
+}
+
+ul.cta-list li input {float:left;margin-top:4px;margin-right:10px;width:auto;}
+
+label {
+	display:table-cell; 
+	color: #000;
+	vertical-align: middle;
+	padding-right:16px;
+	font-weight:normal;
+	width:130px;
+}
+ul.cta-list label {width:auto;padding-right:0;}
+.input-wrapper {display: table;width:100%;padding-top:10px;padding-bottom:10px;}
+
+/*error classes*/
+.pnl-row.errors {
+   padding-bottom: 0;
+   overflow: hidden; 
+}
+.error {
+	float:left;
+	color: #d60021;
+	clear:both;
+	padding-right:10px;
+	font-weight:bold;
+	width:100%;
+}
+.error:before {
+	content: "*";
+    color: red;
+    margin-right: 6px;
+    float:left;
+}
+.error span {display: block;overflow: hidden}
+.errors p {margin-top:0;margin-bottom:0;}
+
+/*anything else */
+/* label {
+    display:table-cell; 
+    color: #000;
+    vertical-align: middle;
+    padding-right:16px;
+    font-weight:normal;
+    width:130px;
+} */
+/* ul.cta-list label {width:auto;padding-right:0;} */
+
+
+/* ul {
+    list-style: none;
+    padding-left:16px;
+    padding-left:1rem;
+} */
+	
+/* ul:not(.cta-list) li {list-style-type: disc;margin-bottom:0;} */
+/* ul.cta-list li {padding-left:130px;} */
+/* ul.cta-list li input {float:left;margin-top:4px;margin-right:10px;} */
+/* fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;} */
+fieldset input {
+    border: 1px solid #ccc !important;
+    padding: 8px 10px;
+    margin:0;
+    line-height: normal;
+    min-height: auto !important;
+}
+
+.error {color:#d60021;}
+/* .error:before {
+    content: "*";
+    color: red;
+    margin-right: 6px;
+    float:left;
+} */
+/* .error span {display: block;overflow: hidden} */
+
+/*input wrappers*/
+.input-wrapper,
+.username,
+.password {display: table;width:100%;padding-top:10px;padding-bottom:10px;}
+/**/
+ 
+.errors p,
+.registered p,
+.forgot-username p,
+.forgot-password p {margin-top:0;margin-top:0;margin-bottom:0;}
+
+.errors p {clear:both;}
+.main-content p a:hover {text-decoration: underline;color:inherit;}
+
+.password-rules {padding-left:148px;padding-left:9.25rem;}
+.password-rules .text-block {padding:10px;margin-top:10px;}
+.password-rules p {padding:0;margin:0;}
+.password-rules li {color:#d60021;font-weight: bold}
+
+p a {text-decoration: none;cursor: pointer;}
+.error.sml-txt {padding:0;margin:0;}
+.table-block.links-block {float:left;}
+.table-block.vlg-bg {padding-right: 16px;padding-right: 1rem;}
+
+ /*******/
+
+.main-page-img div {background-color: #fff}
+#main-navigation .title {display: none}
+.registered {padding-top:16px;}
+.registration-home-login .registered p {padding-left:0;}
+
+.input-wrapper {display:block;}
+
+.cta-list {padding-left: 0;padding-right:16px;padding-right:16px;}
+
+label {width:auto;font-weight:normal;}
+
+.registration-home-login .registered p, 
+.registration-home-login .forgot-username p, 
+.registration-home-login .forgot-password p {padding-left:0;}
+
+.submit-btn {
+    padding-right:16px;
+    padding-right:1rem;
+    padding-left:16px;
+    padding-left:1rem;
+    padding-top:16px;
+    padding-top:1rem;
+}
+.password-rules {
+    clear:both;
+    padding:0;
+}
+
+

@@ -1,0 +1,53 @@
+
+@media only screen and (min-width: 1600px) {} 
+@media only screen and (max-width: 1024px) {
+	
+	#page-outer [class*="grid_"] {width: auto;}
+
+	.masthead .masthead-inner {
+	    height: 100%;
+	    padding-right: 0;
+	}
+	.masthead {
+	    overflow: hidden;
+	    position: relative;
+	    width: -moz-calc(100% - 54px);
+	    width: -o-calc(100% - 54px);
+	    width: -webkit-calc(100% - 54px);
+	    width: calc(100% - 54px);
+	    border:none;
+	    height:100px;
+	}
+	.masthead.clearfix {clear:none;}
+
+	#site-logo {
+		border: none;
+		border-right: 1px solid #fff;
+		float: left;
+	    height: 100px;
+	}
+
+	#main-navigation .title {display: none}	
+	.action-button {float:left;}
+	.errors p {padding-left:0;}
+
+	form {clear:both;}
+	input {width:auto;}
+
+	.pnl-row.errors {overflow:hidden;margin-bottom:10px;}
+	.pnl-row.password-rules {padding:0;}
+
+	ul.cta-list li {padding-left:0;}
+
+	fieldset {padding-bottom:16px;}
+
+}
+@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 414px) {}
+
+@media only screen and (max-width: 375px) {
+	
+}
+
+@media only screen and (max-width: 321px) {}
